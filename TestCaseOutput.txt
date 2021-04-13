@@ -1,0 +1,279 @@
+﻿DistributionID        CourseID        Type        Percent
+1        1        Participation        50
+2        1        Homework        10
+3        1        Tests        20
+4        1        Projects        20
+5        2        Participation        30
+6        2        Homework        30
+7        2        Tests        20
+8        2        Projects        20
+9        3        Participation        10
+10        3        Homework        30
+11        3        Tests        20
+12        3        Projects        40
+13        4        Participation        15
+14        4        Homework        35
+15        4        Tests        30
+16        4        Projects        20
+17        5        Participation        10
+18        5        Homework        20
+19        5        Tests        40
+20        5        Projects        30
+CourseID        CourseName        Department        CourseNumber        Semester        SchoolYear
+1        Database Systems        CSCI        432        Spring        2021
+2        Programming Languages        CSCI        123        Fall        2020
+3        Technical Writing        ENGL        456        Spring        2021
+4        Comp Org        CSSI        769        Fall        2020
+5        Speech        ENGL        658        Fall        2019
+CourseName        Type        Percent
+Comp Org        Participation        15
+Comp Org        Homework        35
+Comp Org        Tests        30
+Comp Org        Projects        20
+Database Systems        Participation        50
+Database Systems        Homework        10
+Database Systems        Tests        20
+Database Systems        Projects        20
+Programming Languages        Participation        30
+Programming Languages        Homework        30
+Programming Languages        Tests        20
+Programming Languages        Projects        20
+Speech        Participation        10
+Speech        Homework        20
+Speech        Tests        40
+Speech        Projects        30
+Technical Writing        Participation        10
+Technical Writing        Homework        30
+Technical Writing        Tests        20
+Technical Writing        Projects        40
+AssignmentID        CourseName        Instance        PointsPossible        Type
+1        Database Systems        1        100        Participation
+2        Database Systems        3        100        Homework
+3        Database Systems        2        100        Tests
+4        Database Systems        1        100        Projects
+5        Programming Languages        1        100        Participation
+6        Programming Languages        5        100        Homework
+7        Programming Languages        2        100        Tests
+8        Programming Languages        2        100        Projects
+9        Technical Writing        1        100        Participation
+10        Technical Writing        2        100        Homework
+11        Technical Writing        1        100        Tests
+12        Technical Writing        1        100        Projects
+13        Comp Org        1        100        Participation
+14        Comp Org        1        100        Homework
+15        Comp Org        1        100        Tests
+16        Comp Org        2        100        Projects
+17        Speech        1        100        Participation
+18        Speech        1        100        Homework
+19        Speech        1        100        Tests
+20        Speech        1        100        Projects
+AssignmentID        StudentID        FirstName        LastName        Points        PointsPossible        Instance
+1        2        Pascal        Regina        77        100        1
+1        3        Christie        Debbie        94        100        1
+1        4        Melissa        Dorthy        96        100        1
+1        5        Jenni        Quinn        73        100        1
+2        2        Pascal        Regina        98        100        3
+2        3        Christie        Debbie        92        100        3
+2        4        Melissa        Dorthy        80        100        3
+2        5        Jenni        Quinn        20        100        3
+3        2        Pascal        Regina        75        100        2
+3        3        Christie        Debbie        91        100        2
+3        4        Melissa        Dorthy        70        100        2
+3        5        Jenni        Quinn        94        100        2
+4        2        Pascal        Regina        80        100        1
+4        3        Christie        Debbie        90        100        1
+4        4        Melissa        Dorthy        96        100        1
+4        5        Jenni        Quinn        96        100        1
+5        2        Pascal        Regina        74        100        1
+5        3        Christie        Debbie        93        100        1
+5        5        Jenni        Quinn        83        100        1
+6        1        Vasanta        Thorsten        80        100        5
+6        2        Pascal        Regina        94        100        5
+6        3        Christie        Debbie        82        100        5
+6        5        Jenni        Quinn        90        100        5
+7        1        Vasanta        Thorsten        80        100        2
+7        2        Pascal        Regina        90        100        2
+7        3        Christie        Debbie        95        100        2
+7        5        Jenni        Quinn        92        100        2
+8        1        Vasanta        Thorsten        80        100        2
+8        2        Pascal        Regina        84        100        2
+8        3        Christie        Debbie        83        100        2
+8        5        Jenni        Quinn        76        100        2
+9        1        Vasanta        Thorsten        61        100        1
+9        2        Pascal        Regina        83        100        1
+9        5        Jenni        Quinn        94        100        1
+10        1        Vasanta        Thorsten        70        100        2
+10        2        Pascal        Regina        74        100        2
+10        5        Jenni        Quinn        83        100        2
+11        1        Vasanta        Thorsten        85        100        1
+11        2        Pascal        Regina        92        100        1
+11        5        Jenni        Quinn        83        100        1
+12        1        Vasanta        Thorsten        66        100        1
+12        2        Pascal        Regina        90        100        1
+12        5        Jenni        Quinn        74        100        1
+13        1        Vasanta        Thorsten        58        100        1
+13        3        Christie        Debbie        73        100        1
+13        4        Melissa        Dorthy        8        100        1
+14        1        Vasanta        Thorsten        97        100        1
+14        3        Christie        Debbie        80        100        1
+14        4        Melissa        Dorthy        99        100        1
+15        1        Vasanta        Thorsten        87        100        1
+15        3        Christie        Debbie        100        100        1
+15        4        Melissa        Dorthy        6        100        1
+16        1        Vasanta        Thorsten        85        100        2
+16        3        Christie        Debbie        80        100        2
+16        4        Melissa        Dorthy        50        100        2
+17        4        Melissa        Dorthy        97        100        1
+18        4        Melissa        Dorthy        76        100        1
+19        4        Melissa        Dorthy        88        100        1
+20        4        Melissa        Dorthy        74        100        1
+AssignmentID        PointsPossible        PointAVG        BestGRADE        WorstGRADE
+2        100        72.5000        98        20
+LastName        FirstName        CourseName
+Debbie        Christie        Programming Languages
+Quinn        Jenni        Programming Languages
+Regina        Pascal        Programming Languages
+Thorsten        Vasanta        Programming Languages
+LastName        FirstName        CourseName        AssignmentID        Points        PointsPossible
+Debbie        Christie        Database Systems        1        94        100
+Dorthy        Melissa        Database Systems        1        96        100
+Quinn        Jenni        Database Systems        1        73        100
+Regina        Pascal        Database Systems        1        77        100
+Debbie        Christie        Database Systems        2        92        100
+Dorthy        Melissa        Database Systems        2        80        100
+Quinn        Jenni        Database Systems        2        20        100
+Regina        Pascal        Database Systems        2        98        100
+Debbie        Christie        Database Systems        3        91        100
+Dorthy        Melissa        Database Systems        3        70        100
+Quinn        Jenni        Database Systems        3        94        100
+Regina        Pascal        Database Systems        3        75        100
+Debbie        Christie        Database Systems        4        90        100
+Dorthy        Melissa        Database Systems        4        96        100
+Quinn        Jenni        Database Systems        4        96        100
+Regina        Pascal        Database Systems        4        80        100
+Debbie        Christie        Database Systems        5        93        100
+Quinn        Jenni        Database Systems        5        83        100
+Regina        Pascal        Database Systems        5        74        100
+Debbie        Christie        Database Systems        6        82        100
+Quinn        Jenni        Database Systems        6        90        100
+Regina        Pascal        Database Systems        6        94        100
+Debbie        Christie        Database Systems        7        95        100
+Quinn        Jenni        Database Systems        7        92        100
+Regina        Pascal        Database Systems        7        90        100
+Debbie        Christie        Database Systems        8        83        100
+Quinn        Jenni        Database Systems        8        76        100
+Regina        Pascal        Database Systems        8        84        100
+Quinn        Jenni        Database Systems        9        94        100
+Regina        Pascal        Database Systems        9        83        100
+Quinn        Jenni        Database Systems        10        83        100
+Regina        Pascal        Database Systems        10        74        100
+Quinn        Jenni        Database Systems        11        83        100
+Regina        Pascal        Database Systems        11        92        100
+Quinn        Jenni        Database Systems        12        74        100
+Regina        Pascal        Database Systems        12        90        100
+Debbie        Christie        Database Systems        13        73        100
+Dorthy        Melissa        Database Systems        13        8        100
+Debbie        Christie        Database Systems        14        80        100
+Dorthy        Melissa        Database Systems        14        99        100
+Debbie        Christie        Database Systems        15        100        100
+Dorthy        Melissa        Database Systems        15        6        100
+Debbie        Christie        Database Systems        16        80        100
+Dorthy        Melissa        Database Systems        16        50        100
+Dorthy        Melissa        Database Systems        17        97        100
+Dorthy        Melissa        Database Systems        18        76        100
+Dorthy        Melissa        Database Systems        19        88        100
+Dorthy        Melissa        Database Systems        20        74        100
+AssignmentID        DistributionID        Instance        PointsPossible
+1        1        1        100
+2        2        3        100
+3        3        2        100
+4        4        1        100
+5        5        1        100
+6        6        5        100
+7        7        2        100
+8        8        2        100
+9        9        1        100
+10        10        2        100
+11        11        1        100
+12        12        1        100
+13        13        1        100
+14        14        1        100
+15        15        1        100
+16        16        2        100
+17        17        1        100
+18        18        1        100
+19        19        1        100
+20        20        1        100
+21        1        3        100
+DistributionID        CourseID        Type        Percent
+1        1        Participation        30
+2        1        Homework        10
+3        1        Tests        40
+4        1        Projects        20
+5        2        Participation        30
+6        2        Homework        30
+7        2        Tests        20
+8        2        Projects        20
+9        3        Participation        10
+10        3        Homework        30
+11        3        Tests        20
+12        3        Projects        40
+13        4        Participation        15
+14        4        Homework        35
+15        4        Tests        30
+16        4        Projects        20
+17        5        Participation        10
+18        5        Homework        20
+19        5        Tests        40
+20        5        Projects        30
+StudentID        AssignmentID        Points        AssignmentID        DistributionID        Instance        PointsPossible
+2        4        82        4        4        1        100
+3        4        92        4        4        1        100
+4        4        98        4        4        1        100
+5        4        98        4        4        1        100
+StudentID        AssignmentID        Points        AssignmentID        DistributionID        Instance        PointsPossible
+5        1        73        1        1        1        100
+5        2        20        2        2        3        100
+5        3        94        3        3        2        100
+5        4        98        4        4        1        100
+5        5        83        5        5        1        100
+5        6        90        6        6        5        100
+5        7        92        7        7        2        100
+5        8        76        8        8        2        100
+5        9        94        9        9        1        100
+5        10        83        10        10        2        100
+5        11        83        11        11        1        100
+5        12        74        12        12        1        100
+StudentID        AssignmentID        Points        AssignmentID        DistributionID        Instance        PointsPossible
+5        1        75        1        1        1        100
+5        2        22        2        2        3        100
+5        3        96        3        3        2        100
+5        4        100        4        4        1        100
+5        5        85        5        5        1        100
+5        6        92        6        6        5        100
+5        7        94        7        7        2        100
+5        8        78        8        8        2        100
+5        9        96        9        9        1        100
+5        10        85        10        10        2        100
+5        11        85        11        11        1        100
+5        12        76        12        12        1        100
+FINALGRADE
+85.20000000
+FINALGRADE
+70.50000000
+WorstGrade
+61
+StudentID        AssignmentID        Points
+1        6        80
+1        7        80
+1        8        80
+1        9        61
+1        10        70
+1        11        85
+1        12        66
+1        13        58
+1        14        97
+1        15        87
+1        16        85
+FINALGRADE
+64.40000000
