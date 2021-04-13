@@ -28,3 +28,8 @@ The command that you use to get task 4, 5, 6, 7, 8, 9, 10, 11, 12;
 The source code;
 A README file. The minimum required content of the file should contains the instructions to compile and execute your code;
 The test cases that you use and the results that you get from the test cases.
+
+Test cases are provided within the final code. The output of those cases are put into a text file for better formmating.
+I ran the code by using the webiste https://paiza.io/en/projects/new?language=mysql 
+
+
